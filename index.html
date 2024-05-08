@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@100;200;300;400;500;531;600;700;800;900&family=Lobster&family=Montserrat:wght@1,500;600;700&family=Oxygen:wght@300;400;700&family=Raleway:ital,wght@0,100;0,500;1,400;1,500&family=Roboto:ital,wght@0,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <link href="css/ekko-lightbox.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Gramitra</title>
+    <style>
+      .bg-img {
+        background-image: url("images/wheat-2391348_1280.jpg");
+        height: 97vh;
+        width: 99vw;
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 90%;
+      }
+      .container-1{
+        position: relative;
+        background-image: url('images/asian_rice_farmer-wallpaper-5120x2880.jpg'); /* Replace 'your-image.jpg' with the path to your image file */
+        background-size: cover;
+        background-position: center;
+        padding: 50px 0;
+        margin-top: 100px;
+        /* background-color: rgba(255, 255, 255, 0.5); */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            class="img-responsive"
+            src="images/logo.png"
+            alt="Logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#info">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#working">How to Use the Bot?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- /container -->
+    </nav>
+    <!-- /Navbar -->
+
+    <!-- Main content -->
+    <!-- background image -->
+    <div class="bg-img">
+      <div class="overlay">
+        <!-- Home page content -->
+        <div class="home-page-content">
+          <h1 class="text-center home-page-text h1-responsive">ग्राMitra</h1>
+          <h5 class="text-center home-supporting-text">
+            SMS information bot for feature phone users in rural India
+          </h5>
+          <div class="disp">
+          <div class="home-buttons text-center fadeIn">
+            <a href="services.html">
+              <div class="btn homepage-btn-1 btn-lg mt-2">Services</div></a
+            >
+          </div>
+          <div class="home-buttons text-center fadeIn">
+            <a href="sms:+919479774363?body=Hi">
+              <div class="btn homepage-btn-1 btn-lg mt-2">Try the Bot</div></
+            >
+          </div>
+        </div>
+        </div>
+        <!-- /Home page content -->
+      </div>
+      <!-- /bg-img -->
+    
+    <h1 class="h1-responsive team-title text-center" id="info">About Us</h1>
+    <section class="contain">
+      <div class="content">
+          <p>Welcome to our <b>SMS Information Bot </b>, a dedicated lifeline
+            tailored specifically for feature phone users in rural India. Our
+            service aims to provide crucial information and assistance through
+            the convenience of simple text messages. With our SMS Information
+            Bot, you can stay updated with real-time weather forecasts to
+            protect your farm and plan your daily activities effectively.
+            Receive timely health alerts about local diseases, empowering you to
+            take preventive measures and safeguard your family's well-being.
+            Stay informed about government policies relevant to villagers and
+            farmers, ensuring you are aware of opportunities and regulations
+            that impact your community. For entertainment, enjoy live cricket
+            scores delivered directly to your phone, adding a touch of
+            excitement to your day. Additionally, receive seasonal advice on
+            poultry feeding and other farming practices to optimize your
+            agricultural activities throughout the year. Beyond information, our
+            SMS Information Bot serves as a critical link during emergencies.
+            Connect instantly to essential government services such as police,
+            ambulance, and fire departments when urgent assistance is needed.
+            Our initiative is dedicated to breaking barriers and empowering
+            rural communities by leveraging the simplicity of text messages to
+            deliver essential updates and assistance. Join us in embracing
+            technology to enhance the lives of rural India. Stay connected, stay
+            informed with our SMS Information Bot!</p>
+      </div>
+      <div class="image">
+          <img src="images/bot.jpeg" alt="Placeholder Image">
+      </div>
+  </section>
+  
+    <h1 class="h1-responsive team-title text-center" id="working">How to Use the Bot?</h1>
+    <section class="contain" >
+      <div class="content">
+        <p>
+          1.User Interaction and Initialization:
+          User sends a message "hi" to the bot to initiate the conversation.</p>
+         <p> 2.Language Selection:
+          Upon receiving "hi", the bot responds by asking the user to select a language for interaction (e.g., English, Spanish, etc.).</p>
+          <p>3.Language Selection Process:
+          The user responds with their preferred language choice (e.g., typing "English").</p>
+          <p>4.Main Menu Display:
+          After language selection, the bot displays a main menu featuring 10 different services or options (e.g., weather updates, live cricket score, etc.).</p>
+          <p>5.Service Selection:
+          The user selects a service by responding with the corresponding number or identifier of the desired service (e.g., typing "2" for live cricket score).</p>
+          <p>6.Retrieve Information:
+          The bot fetches and provides the current information related to the selected service (e.g., displays the live cricket score).</p>
+          <p>7.Return to Main Menu:
+          To return to the main menu for selecting another service, the user sends "hi" again.</p>
+    </div>
+    <div class="image">
+        <img src="images/works.png" alt="Placeholder Image">
+    </div>
+</section>
+  
+<h1 class="h1-responsive team-title text-center">Meet our team</h1>
+<section class="container" id="about">
+
+  <div class="row team-row">
+      <div class="card-deck">
+          <div class="card">
+              <div class="img-box p-1 image">
+                  <img class="img-fluid img-top" src="images/khushi.jpg" alt="Lead Web Developer">
+              </div>
+              <div class="card-body">
+                  <div class="card-title">
+                       <h3 class="h3-responsive">Khushi Srivastava</h3>
+                  </div>
+                  <div class="card-subtitle">
+                      <h6>Web Developer </h6>
+                  </div>
+                  <div class="card-text">
+                      <p>Building bridges between users and pixels, one line of code at a time.</p>
+                  </div>
+                  <div class="teams-socials m-1">
+                    <i class="fa fa-facebook mx-1" data-toggle="tooltip" title="Like on facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter mx-1" data-toggle="tooltip" title="Follow on twitter" aria-hidden="true"></i>
+                    <i class="fa fa-instagram mx-1" data-toggle="tooltip" title="Follow on instagram" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin mx-1" data-toggle="tooltip" title="Add on linkedin" aria-hidden="true"></i>
+                  </div>
+                 
+              </div>
+          </div>
+          <!-- /card 1 -->
+
+          <div class="card">
+              <div class="img-box p-1 image">
+                  <img class="img-fluid img-top" src="images/kartikay.jpg" alt="Web developer">
+              </div>
+              <div class="card-body">
+                  <div class="card-title">
+                       <h3 class="h3-responsive">Kartikay Sinha</h3>
+                  </div>
+                  <div class="card-subtitle">
+                      <h6>Web Developer</h6>
+                  </div>
+                  <div class="card-text">
+                      <p>Ambition fuels the journey, but it's the relentless drive that propels us to conquer the impossible.</p>
+                  </div>
+                  <div class="teams-socials m-1">
+                    <i class="fa fa-facebook mx-1" data-toggle="tooltip" title="Like on facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter mx-1" data-toggle="tooltip" title="Follow on twitter" aria-hidden="true"></i>
+                    <i class="fa fa-instagram mx-1" data-toggle="tooltip" title="Follow on instagram" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin mx-1" data-toggle="tooltip" title="Add on linkedin" aria-hidden="true"></i>
+                  </div>
+                 
+              </div>
+          </div>
+          <!-- /card 2 -->
+
+          <div class="card">
+              <div class="img-box p-1 image">
+                  <img class="img-fluid img-top" src="images/kashish.jpg" alt="Web Developer">
+              </div>
+              <div class="card-body">
+                  <div class="card-title">
+                       <h3 class="h3-responsive">Kashish Sinha</h3>
+                  </div>
+                  <div class="card-subtitle">
+                      <h6>Web Developer</h6>
+                  </div>
+                  <div class="card-text">
+                      <p>Passion fuels my code, crafting digital dreams into interactive realities that inspire and innovate.</p>
+                  </div>
+                  <div class="teams-socials m-1">
+                    <i class="fa fa-facebook mx-1" data-toggle="tooltip" title="Like on facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter mx-1" data-toggle="tooltip" title="Follow on twitter" aria-hidden="true"></i>
+                    <i class="fa fa-instagram mx-1" data-toggle="tooltip" title="Follow on instagram" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin mx-1" data-toggle="tooltip" title="Add on linkedin" aria-hidden="true"></i>
+                  </div>
+                 
+              </div>
+          </div>
+          <!-- /card 3 -->
+
+          <div class="card">
+              <div class="img-box p-1 image">
+                  <img class="img-fluid img-top" src="images/pritam.jpg" alt="Web Developer">
+              </div>
+              <div class="card-body">
+                  <div class="card-title">
+                       <h3 class="h3-responsive">Pritam Kumar</h3>
+                  </div>
+                  <div class="card-subtitle">
+                      <h6>Web Developer</h6>
+                  </div>
+                  <div class="card-text">
+                      <p>In the symphony of technology, a coder is the composer, orchestrating intricate melodies of logic and structure.</p>
+                  </div>
+                  <div class="teams-socials m-1">
+                    <i class="fa fa-facebook mx-1" data-toggle="tooltip" title="Like on facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter mx-1" data-toggle="tooltip" title="Follow on twitter" aria-hidden="true"></i>
+                    <i class="fa fa-instagram mx-1" data-toggle="tooltip" title="Follow on instagram" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin mx-1" data-toggle="tooltip" title="Add on linkedin" aria-hidden="true"></i>
+                  </div>
+                 
+              </div>
+          </div>
+          <!-- /card 4 -->
+          
+      </div>
+      <div class="spaceii"></div>
+      <!-- /card deck -->
+      <div class="row team-row">
+        <div class="card-deck">
+            <div class="card">
+                <div class="img-box p-1 image">
+                    <img class="img-fluid img-top" src="images/pragya.jpg" alt="Study and Documentation ">
+                </div>
+                <div class="card-body">
+                    <div class="card-title">
+                         <h3 class="h3-responsive">Pragya Mishra</h3>
+                    </div>
+                    <div class="card-subtitle">
+                        <h6>Study and Documentation</h6>
+                    </div>
+                    <div class="card-text">
+                        <p>I have turned chaos into clarity, confusion into comprehension and jumbled thoughts into organised docs.</p>
+                    </div>
+                    <div class="teams-socials m-1">
+                      <i class="fa fa-facebook mx-1" data-toggle="tooltip" title="Like on facebook" aria-hidden="true"></i>
+                      <i class="fa fa-twitter mx-1" data-toggle="tooltip" title="Follow on twitter" aria-hidden="true"></i>
+                      <i class="fa fa-instagram mx-1" data-toggle="tooltip" title="Follow on instagram" aria-hidden="true"></i>
+                      <i class="fa fa-linkedin mx-1" data-toggle="tooltip" title="Add on linkedin" aria-hidden="true"></i>
+                    </div>
+                   
+                </div>
+            </div>
+            <!-- /card 1 -->
+  
+            <div class="card">
+                <div class="img-box p-1 image">
+                    <img class="img-fluid img-top" src="images/joy.jpg" alt="data analyst">
+                </div>
+                <div class="card-body">
+                    <div class="card-title">
+                         <h3 class="h3-responsive">Joy Sethi</h3>
+                    </div>
+                    <div class="card-subtitle">
+                        <h6>Data Analyst</h6>
+                    </div>
+                    <div class="card-text">
+                        <p>Code never lies, comments sometimes do.</p>
+                    </div>
+                    <div class="teams-socials m-1">
+                      <i class="fa fa-facebook mx-1" data-toggle="tooltip" title="Like on facebook" aria-hidden="true"></i>
+                      <i class="fa fa-twitter mx-1" data-toggle="tooltip" title="Follow on twitter" aria-hidden="true"></i>
+                      <i class="fa fa-instagram mx-1" data-toggle="tooltip" title="Follow on instagram" aria-hidden="true"></i>
+                      <i class="fa fa-linkedin mx-1" data-toggle="tooltip" title="Add on linkedin" aria-hidden="true"></i>
+                    </div>
+                   
+                </div>
+            </div>
+            <!-- /card 2 -->
+  
+            <div class="card">
+                <div class="img-box p-1 image">
+                    <img class="img-fluid img-top" src="images/paharia.jpg" alt="Web Developer">
+                </div>
+                <div class="card-body">
+                    <div class="card-title">
+                         <h3 class="h3-responsive">Yash Paharia</h3>
+                    </div>
+                    <div class="card-subtitle">
+                        <h6>Bot Developer</h6>
+                    </div>
+                    <div class="card-text">
+                        <p>Code your dreams into reality.</p>
+                    </div>
+                    <div class="teams-socials m-1">
+                      <i class="fa fa-facebook mx-1" data-toggle="tooltip" title="Like on facebook" aria-hidden="true"></i>
+                      <i class="fa fa-twitter mx-1" data-toggle="tooltip" title="Follow on twitter" aria-hidden="true"></i>
+                      <i class="fa fa-instagram mx-1" data-toggle="tooltip" title="Follow on instagram" aria-hidden="true"></i>
+                      <i class="fa fa-linkedin mx-1" data-toggle="tooltip" title="Add on linkedin" aria-hidden="true"></i>
+                    </div>
+                   
+                </div>
+            </div>
+            <!-- /card 3 -->
+  
+            <div class="card">
+                <div class="img-box p-1 image">
+                    <img class="img-fluid img-top" src="images/vatsal.jpg" alt="Machine Learning Developer ">
+                </div>
+                <div class="card-body">
+                    <div class="card-title">
+                         <h3 class="h3-responsive">Vatsal Singh</h3>
+                    </div>
+                    <div class="card-subtitle">
+                        <h6>Machine Learning Developer </h6>
+                    </div>
+                    <div class="card-text">
+                        <p>Crafting intelligence from data.</p>
+                    </div>
+                    <div class="teams-socials m-1">
+                      <i class="fa fa-facebook mx-1" data-toggle="tooltip" title="Like on facebook" aria-hidden="true"></i>
+                      <i class="fa fa-twitter mx-1" data-toggle="tooltip" title="Follow on twitter" aria-hidden="true"></i>
+                      <i class="fa fa-instagram mx-1" data-toggle="tooltip" title="Follow on instagram" aria-hidden="true"></i>
+                      <i class="fa fa-linkedin mx-1" data-toggle="tooltip" title="Add on linkedin" aria-hidden="true"></i>
+                    </div>
+                   
+                </div>
+            </div>
+            <!-- /card 4 -->
+            
+        </div>
+        <div class="row team-row">
+        <div class="card-deck">
+            <div class="card">
+                <div class="img-box p-1 image">
+                    <img class="img-fluid img-top" src="images/riya.jpg" alt="Ml developer">
+                </div>
+                <div class="card-body">
+                    <div class="card-title">
+                         <h3 class="h3-responsive">Riya Samantaray</h3>
+                    </div>
+                    <div class="card-subtitle">
+                        <h6>Ml developer</h6>
+                    </div>
+                    <div class="card-text">
+                        <p>From algorithms to interfaces, crafting solutions with code and creativity.</p>
+                    </div>
+                    <div class="teams-socials m-1">
+                      <i class="fa fa-facebook mx-1" data-toggle="tooltip" title="Like on facebook" aria-hidden="true"></i>
+                      <i class="fa fa-twitter mx-1" data-toggle="tooltip" title="Follow on twitter" aria-hidden="true"></i>
+                      <i class="fa fa-instagram mx-1" data-toggle="tooltip" title="Follow on instagram" aria-hidden="true"></i>
+                      <i class="fa fa-linkedin mx-1" data-toggle="tooltip" title="Add on linkedin" aria-hidden="true"></i>
+                    </div>
+                   
+                </div>
+            </div>
+            <!-- /card 1 -->
+  
+            <div class="card">
+                <div class="img-box p-1 image">
+                    <img class="img-fluid img-top" src="images/kartik.jpg" alt="Designer">
+                </div>
+                <div class="card-body">
+                    <div class="card-title">
+                         <h3 class="h3-responsive">Kartik Goyal</h3>
+                    </div>
+                    <div class="card-subtitle">
+                        <h6>Designer</h6>
+                    </div>
+                    <div class="card-text">
+                        <p>Shaping Vision with Creative Mastery.</p>
+                    </div>
+                    <div class="teams-socials m-1">
+                      <i class="fa fa-facebook mx-1" data-toggle="tooltip" title="Like on facebook" aria-hidden="true"></i>
+                      <i class="fa fa-twitter mx-1" data-toggle="tooltip" title="Follow on twitter" aria-hidden="true"></i>
+                      <i class="fa fa-instagram mx-1" data-toggle="tooltip" title="Follow on instagram" aria-hidden="true"></i>
+                      <i class="fa fa-linkedin mx-1" data-toggle="tooltip" title="Add on linkedin" aria-hidden="true"></i>
+                    </div>
+                   
+                </div>
+            </div>
+            <!-- /card 2 -->           
+        </div>
+      <!-- /team-row -->
+  </section>
+  <!-- /container -->
+  <div class="container-1" id="contact">
+    <div class="overlay">
+    <h1 class="h1-responsive clients-title text-left">Contact us</h1>
+    <div class="contact-section">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card align-items-center" >
+                    <div class="card-body py-2">
+                        <div class="card-title py-2">
+                            <h4 class="h4-responsive">How can we help?</h4>
+                        </div>
+                         <form class="comment-form py-2" action="">
+                      <div class="form-group py-2">
+                          <label for="name"><span class="sr-only">Name</span></label>
+                          <input type="text" placeholder="Name" id="name" required>
+                      </div>
+                      <div class="form-group py-2">
+                          <label for="email"><span class="sr-only">Email:</span></label>
+                          <input type="email" placeholder="Email" id="email" required>
+                      </div>
+                      <div class="form-group py-2">
+                          <label for="text-area"><span class="sr-only">Query or suggestion</span></label>
+                         <textarea name="textarea" placeholder="Talk to us here..." id="textarea" cols="23" rows="3" required></textarea>
+                      </div>
+                      <div class="card-button">
+                         <button type="submit" class="btn btn-lg submit-btn">Submit</button>
+                      </div>
+                  </form>
+                    </div>
+        
+                </div>
+                <!-- /card -->
+            </div>
+        
+                <div class="col-sm-6 opening-hours">
+                  
+
+                    <div class="socials py-2 mx-2">
+                      <h3 class="h3-responsive">Get in touch with us</h3>
+                      <hr>
+                      <h6 class="h6-responsive"><span> <i class="fa fa-envelope" aria-hidden="true"></i> </span>gramitra@gmail.com</h6>
+                      <h6 class="h6-responsive"><span> <i class="fa fa-phone" aria-hidden="true"></i> </span>(016) 234 5678</h6>
+                    </div>
+
+                    <!-- Social icons -->
+   <div class="social py-3 text-center text-black" style="cursor: pointer;">
+      <i class="fa fa-facebook fa-2x mx-1" aria-hidden="true"></i>
+
+     <i class="fa fa-twitter fa-2x mx-1" aria-hidden="true"></i>
+
+    <i class="fa fa-instagram fa-2x mx-1" aria-hidden="true"></i>
+     <i class="fa fa-home fa-2x mx-1" aria-hidden="true"></i>
+    </div>
+
+  </div>
+
+                  </div>
+               <!-- /container -->
+                </div>
+   
+    </div>
+    <!-- /row -->
+    </div>
+    <!-- /contact section -->
+    </div>
+    <!-- /container -->
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js" integrity="sha512-YibiFIKqwi6sZFfPm5HNHQYemJwFbyyYHjrr3UT+VobMt/YBo1kBxgui5RWc4C3B4RJMYCdCAJkbXHt+irKfSA==" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
+ <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js" integrity="sha512-YibiFIKqwi6sZFfPm5HNHQYemJwFbyyYHjrr3UT+VobMt/YBo1kBxgui5RWc4C3B4RJMYCdCAJkbXHt+irKfSA==" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+
+</body>
+    <div class="box"></div>
+    <!-- /view -->
+    <!-- /main content -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ekko-lightbox.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

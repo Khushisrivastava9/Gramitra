@@ -1,0 +1,372 @@
+
+.navbar {
+    background-color:white;
+    padding: 10px; /* Padding around navbar */
+    height: 70px; /* Fixed height for the navbar */
+    width: 100%;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; 
+    position: fixed;
+    z-index: 1; 
+}
+.navbar .navbar-brand img {
+    height: 8rem;
+    width: auto;
+}
+.navbar .navbar-toggler {
+    border: none;
+    outline: none;
+    font-size: 1.8rem;
+  
+}
+.navbar .navbar-collapse .navbar-nav li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 540;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
+.overlay {
+    position: sticky;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.home-page-content {
+   padding-top: 19%;
+}
+.home-page-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 1px #333333;
+}
+.home-supporting-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 2px 1px #333333;
+}
+.homepage-btn-1 {
+    background: #00cc00;
+    color: white;
+    margin-left: 4px;
+    font-size: x-large;
+    border-radius: .4rem;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+   
+}
+.homepage-btn-1:hover {
+    background: #004d00;
+    color: white;
+}
+/* /Home page end */
+.contain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.content {
+    flex: 1;
+    padding-right: 20px;
+}
+.content h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.content p {
+    color: black;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.image {
+    /* flex: 1; */
+    text-align: center;
+}
+.image img {
+    /* width: 100%; */
+    max-width: 350px;
+    overflow: hidden;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.contain:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.contain-1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.image:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+/* TEAM Section */
+
+.team-title {
+    font-size: 5rem;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: initial;
+    position: relative;
+    margin: 30px 0 60px;
+}
+.team-row .card-deck .card {
+    margin-top: 50px;
+    width: 280px;
+    height: 480px;
+    border: hidden;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+.team-row .card-deck .card .img-box {
+    width: 260px;
+    height: 260px;
+    align-self: center;
+    overflow: hidden;
+}
+.team-row .card-deck .card img {
+    width: 260px;
+    height: auto;
+    margin-top: 2px;
+    align-self: center;
+
+}
+.team-row .card-deck .card-body .card-title {
+    font-family: 'Raleway', sans-serif;
+    color: #4d4d4d;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: start;
+    text-transform: initial;
+    position: relative;
+}
+.team-row .card-deck .card-body .card-subtitle {
+    font-family: 'Raleway', sans-serif;
+    color: #4d4d4d;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: start;
+    text-transform: initial;
+    position: relative;
+}
+.team-row .card-deck .card-body .card-text p {
+    font-family: 'Raleway', sans-serif;
+    color: #4d4d4d;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: start;
+    text-transform: initial;
+    position: relative;
+}
+.team-row .card-deck .card-body .teams-socials {
+    font-size: 20px;
+    color: #262626;
+    cursor: pointer;
+}
+
+
+.information{
+    justify-content: left;
+    padding: 20px;
+    margin-top: 20px;
+
+
+}
+.para{
+    padding: 20px;
+}
+
+.firstimg img {
+    width: 400px;
+    position: relative;
+    z-index: 10;
+  }
+.firstimg{
+    position: relative;
+}
+section.first > div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+  }
+
+
+/* /TEAM Section */
+
+/* CLIENTS Section */
+
+.clients-title {
+    font-size: 5rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: initial;
+    position: relative;
+    margin: 30px 0 60px;
+    margin-left: 20px;
+  }
+
+  .card-columns .card {
+      border: none;
+      box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+      overflow: hidden;
+
+  }
+  .card-columns .card img {
+    width: auto;
+    height: 160px;
+
+  }
+  .h4-responsive{
+    color: black;
+  }
+  /* /CLIENTS Section */
+
+  
+.contact-section .card {
+    width: 340px;
+    height: 400px;
+    margin-bottom: 2rem;
+    margin-left: 150px;
+    }
+    .contact-section .card .card-body .card-title {
+      font-size: 2.4rem;
+      font-family: 'Raleway', sans-serif;
+      color: white;
+      font-size: 26px;
+      font-weight: 500;
+      text-align: center;
+      text-transform: initial;
+      position: relative;
+    }
+    .contact-section .card .card-body form label{
+      font-size: .9rem!important;
+      font-family: 'Raleway', sans-serif;
+      color: white;
+      font-weight: 500;
+      text-align: center;
+      text-transform: initial;
+      position: relative;
+  }
+    .contact-section .card .card-body form input, textarea {
+      width: 280px;
+      background-color: #f2f2ff2!important;
+  }
+  
+    .card-button .submit-btn {
+      color: white;
+      background: green;
+      
+    }
+    .opening-hours h3 {
+      font-size: 2rem!important;
+      font-family: 'Raleway', sans-serif;
+      color: white;
+      font-weight: 500;
+      text-transform: initial;
+      position: relative;
+    }
+    .opening-hours h6 {
+      font-size: 1.2rem!important;
+      font-family: 'Raleway', sans-serif;
+      color: white;
+      font-weight: 500;
+      text-transform: initial;
+      position: relative;
+    }
+  
+  .page-footer .footer-socials {
+    background-color: #004d4d;
+  }
+  .page-footer .footer-copyright {
+    background-color: #003333;
+  }
+  
+  @media (max-width: 576px) {
+    .clients-title {
+     font-size: 20px;
+    }
+    .contact-section .card {
+    width: 320px;
+    height: 390px;
+    position: relative;
+    }
+    .contact-section .card .card-body form input, textarea {
+      width: 210px;
+      background-color: #f2f2ff2!important;
+  }
+  .opening-hours h3 {
+      font-size: 1.2rem!important;
+      font-family: 'Raleway', sans-serif;
+      color: #4d4d4d;
+      font-weight: 500;
+      text-transform: initial;
+      text-align: center;
+    }
+    hr {
+      width: 100px;
+      text-align :start;
+    }
+    .opening-hours h6 {
+      font-size: .9rem!important;
+      font-family: 'Raleway', sans-serif;
+      color: #4d4d4d;
+      font-weight: 500;
+      text-align: center;
+    }
+  
+  }
+
+/* Small screens */
+@media (max-width: 576px) {
+    /* HOME section */
+    .home-page-content {
+        padding-top: 10rem;
+    }
+    .home-page-text {
+        font-size: 1.6rem;
+    }
+    .home-buttons .homepage-btn-1, .homepage-btn-2 {
+     font-size: 1rem;
+    }
+    /* Home section */
+
+    /* TEAM section */
+    .team-row .card-deck .card {
+        width: 400px;
+        height: inherit;
+   }
+   .team-row .card-deck .card .img-box {
+       width: 380px;
+       height: 380px;
+   }
+   .team-row .card-deck .card img {
+       width: 360px;
+       height: auto;
+   
+   }
+   /* /TEAM Section */

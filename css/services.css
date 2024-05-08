@@ -1,0 +1,105 @@
+body {
+    margin: 0; /* Reset default margin */
+    padding: 0;
+    
+}
+.center-heading{
+    margin-right: 90px;
+}
+.contain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70%;
+    margin-left: 190px;
+    margin-right: 100px;
+    background-color: #f9ecdc;
+    box-shadow: 0 2px 5px rgba(72, 255, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.home-buttons a {
+    text-decoration: none; /* Remove underline */
+}
+.home-supporting-text {
+    font-family: 'Raleway', sans-serif;
+    font: weight 5px;0;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 2px 1px #333333;
+}
+.homepage-btn-1 {
+    text-align: center;
+    max-height: 40px;
+    background: #639237;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: x-large;
+    border-radius: .5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+   
+}
+.homepage-btn-1:hover {
+    background: #02990f;
+    color: white;
+}
+.home-buttons{
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.contain1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 30%;
+    margin-left: 430px;
+    margin-right: 80px;
+    padding: 20px;
+    background-color: #f9ecdc;
+    box-shadow: 0 2px 5px rgba(72, 255, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.content {
+    flex: 1;
+    padding-right: 40px;
+}
+.content h3 {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.content1 h3 {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 75px;
+}
+.content p {
+    color: #0f0101;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.image {
+    /* flex: 1; */
+    text-align: center;
+}
+.image img {
+    width: 70%;
+    max-width: 130px;
+    overflow: hidden;
+    height: auto;
+    border-radius: 0;
+    box-shadow: 0 2px 5px rgba(245, 231, 231, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.contain:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(8, 240, 93, 0.2);
+}
+.center-heading{
+    font-size:40px;
+}
