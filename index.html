@@ -496,18 +496,18 @@ That's it! You're now ready to interact with the Information Bot and access a wi
                         <div class="card-title py-2">
                             <h4 class="h4-responsive">How can we help?</h4>
                         </div>
-                         <form class="comment-form py-2" action="">
+                         <form class="comment-form py-2" action="https://formspree.io/f/mjkbvrae" method="POST">
                       <div class="form-group py-2">
                           <label for="name"><span class="sr-only">Name</span></label>
-                          <input type="text" placeholder="Name" id="name" required>
+                          <input type="text" placeholder="Name" id="name" name="name" required>
                       </div>
                       <div class="form-group py-2">
                           <label for="email"><span class="sr-only">Email:</span></label>
-                          <input type="email" placeholder="Email" id="email" required>
+                          <input type="email" placeholder="Email" id="email" name="email" required>
                       </div>
                       <div class="form-group py-2">
                           <label for="text-area"><span class="sr-only">Query or suggestion</span></label>
-                         <textarea name="textarea" placeholder="Talk to us here..." id="textarea" cols="23" rows="3" required></textarea>
+                         <textarea name="textarea" placeholder="Talk to us here..." id="textarea" name="textarea" cols="23" rows="3" required></textarea>
                       </div>
                       <div class="card-button">
                          <button type="submit" class="btn btn-lg submit-btn">Submit</button>
